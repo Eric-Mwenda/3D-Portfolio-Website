@@ -79,7 +79,7 @@ const blueLightColor = {
 }
 blueLight.add(blueLightColor, 'color')
     .onChange(()=>{
-       pointLightBlue.color.set(blueLightColor.color)
+       pointLightBlue.color.set(blueLightColor.color);
     })
 
 //Add PointLightHelpers, these wlll act as gizmos in Unity.
